@@ -35,12 +35,14 @@ void Ui_MainWindow::ButtonClicked() {
         std::cout << "DebugText: " << task << std::endl;
         promptFile.close();
     } else {
-        std::cout << "DebugText: " << QString(textEdit->toPlainText()).toStdString() << std::endl;
+        task = QString(textEdit->toPlainText()).toStdString();
+        std::cout << "DebugText: " << task << std::endl;
     }
 
     if(!task.empty()) {
         std::string answer;
         ai::RunAi(task, answer);
+        QMessageBox::information(nullptr, "Answer", QString::fromStdString(answer));
         std::cout << "DebugAnswer: " << answer << std::endl;
     }
 }
