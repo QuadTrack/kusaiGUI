@@ -6,6 +6,7 @@
 #include "filesystem"
 #include <google/protobuf/util/json_util.h>
 #include "TextChain.hpp"
+#include "NGramMarkov.hpp"
 //#include "Graph.hpp"
 //#include "markov.pb.h"
 
@@ -16,7 +17,7 @@ namespace ai {
         {'i', 2}, //import
         {'r', 3}, //runai
     };
-    static Markov markovData;
+    static NGramMarkov markovData(2);
     static auto chain = TextChain(markovData);
     bool Train();
     bool ExportGraph();
