@@ -2,10 +2,11 @@
 #include "ai.hpp"
 
 int main(int argc, char *argv[]){
-//    if(argc == 2 && argv[1] == "train") {
-//        ai::Train();
-//        return 0;
-//    }
+//    std::cout << argc << '|' << argv[1] << std::endl;
+    if(argc == 2 && argv[1][0] == 't') {
+        ai::Train();
+        return 0;
+    }
     QApplication app(argc, argv);
     QMainWindow main;
     Ui_MainWindow root;

@@ -10,14 +10,14 @@
 //#include "markov.pb.h"
 
 namespace ai {
-    std::map<char, int> acts {
+    static std::map<char, int> acts {
         {'t', 0}, //train
         {'e', 1}, //export
         {'i', 2}, //import
         {'r', 3}, //runai
     };
-    Markov markovData;
-    auto chain = TextChain(markovData);
+    static Markov markovData;
+    static auto chain = TextChain(markovData);
     bool Train();
     bool ExportGraph();
     bool ImportGraph();
