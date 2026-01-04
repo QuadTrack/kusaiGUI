@@ -17,7 +17,7 @@ namespace ai {
         {'i', 2}, //import
         {'r', 3}, //runai
     };
-    static NGramMarkov markovData(2);
+    static NGramMarkov markovData;
     static auto chain = TextChain(markovData);
     bool Train();
     bool ExportGraph();

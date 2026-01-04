@@ -41,8 +41,10 @@ void Ui_MainWindow::ButtonClicked() {
 
     if(!task.empty()) {
         std::string answer;
-        ai::RunAi(task, answer);
+        ai::RunAi(task, answer, 20);
         QMessageBox::information(nullptr, "Answer", QString::fromStdString(answer));
         std::cout << "DebugAnswer: " << answer << std::endl;
+    } else {
+        std::cout << "Debug: no answer" << std::endl;
     }
 }
