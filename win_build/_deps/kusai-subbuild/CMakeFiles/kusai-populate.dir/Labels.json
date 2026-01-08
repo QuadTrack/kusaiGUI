@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/CMakeFiles/kusai-populate"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/CMakeFiles/kusai-populate.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/CMakeFiles/kusai-populate-complete.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/src/kusai-populate-stamp/kusai-populate-build.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/src/kusai-populate-stamp/kusai-populate-configure.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/src/kusai-populate-stamp/kusai-populate-download.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/src/kusai-populate-stamp/kusai-populate-install.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/src/kusai-populate-stamp/kusai-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/src/kusai-populate-stamp/kusai-populate-patch.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/src/kusai-populate-stamp/kusai-populate-test.rule"
+		},
+		{
+			"file" : "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/src/kusai-populate-stamp/kusai-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kusai-populate"
+		],
+		"name" : "kusai-populate"
+	}
+}
