@@ -1,1 +1,3 @@
-bash cmake -B win_build -DCMAKE_TOOLCHAIN_FILE=mingw.cmake
+#!/bin/bash
+
+cmake -B win_build -DCMAKE_TOOLCHAIN_FILE=mingw.cmake
