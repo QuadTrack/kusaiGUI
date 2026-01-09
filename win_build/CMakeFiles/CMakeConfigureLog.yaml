@@ -84,6 +84,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/site_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -103,6 +112,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/site_perl/gmake"
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/gmake"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/gmake"
+      - "/usr/home/usec/.local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/usr/local/go/bin/gmake"
+      - "/usr/lib/jvm/default/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
       - "/home/usec/.local/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
@@ -121,7 +139,7 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/site_perl/make"
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/make"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/make"
-      - "/home/usec/.local/bin/make"
+      - "/usr/home/usec/.local/bin/make"
       - "/usr/local/sbin/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
@@ -136,7 +154,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -166,6 +184,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/site_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -185,7 +212,7 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/site_perl/x86_64-w64-mingw32-g++"
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/x86_64-w64-mingw32-g++"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/x86_64-w64-mingw32-g++"
-      - "/home/usec/.local/bin/x86_64-w64-mingw32-g++"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-g++"
       - "/usr/local/sbin/x86_64-w64-mingw32-g++"
       - "/usr/local/bin/x86_64-w64-mingw32-g++"
     found: "/usr/bin/x86_64-w64-mingw32-g++"
@@ -200,7 +227,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -237,7 +264,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "message-v1"
     backtrace:
@@ -291,6 +318,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -321,7 +357,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -353,6 +389,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -383,7 +428,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -415,6 +460,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -445,7 +499,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -477,6 +531,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -507,7 +570,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -539,6 +602,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -569,7 +641,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -601,6 +673,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -631,7 +712,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -663,6 +744,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -693,7 +783,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -725,6 +815,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -755,7 +854,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -787,6 +886,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -817,7 +925,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -849,6 +957,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -879,7 +996,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -911,6 +1028,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -930,6 +1056,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/x86_64-w64-mingw32-tapi"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/x86_64-w64-mingw32-tapi"
       - "/usr/bin/x86_64-w64-mingw32-tapi"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-tapi"
+      - "/usr/local/sbin/x86_64-w64-mingw32-tapi"
+      - "/usr/local/bin/x86_64-w64-mingw32-tapi"
+      - "/usr/local/go/bin/x86_64-w64-mingw32-tapi"
+      - "/usr/lib/jvm/default/bin/x86_64-w64-mingw32-tapi"
+      - "/usr/bin/site_perl/x86_64-w64-mingw32-tapi"
+      - "/usr/bin/vendor_perl/x86_64-w64-mingw32-tapi"
+      - "/usr/bin/core_perl/x86_64-w64-mingw32-tapi"
+      - "/usr/bin/x86_64-w64-mingw32-tapi"
       - "/home/usec/.local/bin/x86_64-w64-mingw32-tapi"
       - "/usr/local/sbin/x86_64-w64-mingw32-tapi"
       - "/usr/local/bin/x86_64-w64-mingw32-tapi"
@@ -947,6 +1082,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/site_perl/tapi"
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/tapi"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/tapi"
+      - "/usr/bin/tapi"
+      - "/usr/home/usec/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/local/go/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
       - "/usr/bin/tapi"
       - "/home/usec/.local/bin/tapi"
       - "/usr/local/sbin/tapi"
@@ -968,7 +1112,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -1002,6 +1146,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1021,6 +1174,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ar-15.2"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ar-15.2"
       - "/usr/bin/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/local/bin/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/local/go/bin/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/lib/jvm/default/bin/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/bin/site_perl/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ar-15.2"
+      - "/usr/bin/x86_64-w64-mingw32-gcc-ar-15.2"
       - "/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ar-15.2"
       - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ar-15.2"
       - "/usr/local/bin/x86_64-w64-mingw32-gcc-ar-15.2"
@@ -1039,6 +1201,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ar-15"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ar-15"
       - "/usr/bin/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/local/bin/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/local/go/bin/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/lib/jvm/default/bin/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/bin/site_perl/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ar-15"
+      - "/usr/bin/x86_64-w64-mingw32-gcc-ar-15"
       - "/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ar-15"
       - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ar-15"
       - "/usr/local/bin/x86_64-w64-mingw32-gcc-ar-15"
@@ -1056,6 +1227,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/site_perl/x86_64-w64-mingw32-gcc-ar15"
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ar15"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/bin/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/local/bin/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/local/go/bin/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/lib/jvm/default/bin/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/bin/site_perl/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ar15"
+      - "/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ar15"
       - "/usr/bin/x86_64-w64-mingw32-gcc-ar15"
       - "/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ar15"
       - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ar15"
@@ -1086,7 +1266,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -1120,6 +1300,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/"
       - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1139,6 +1328,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ranlib-15.2"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ranlib-15.2"
       - "/usr/bin/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/local/bin/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/local/go/bin/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/lib/jvm/default/bin/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/bin/site_perl/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ranlib-15.2"
+      - "/usr/bin/x86_64-w64-mingw32-gcc-ranlib-15.2"
       - "/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ranlib-15.2"
       - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ranlib-15.2"
       - "/usr/local/bin/x86_64-w64-mingw32-gcc-ranlib-15.2"
@@ -1157,6 +1355,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ranlib-15"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ranlib-15"
       - "/usr/bin/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/local/bin/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/local/go/bin/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/lib/jvm/default/bin/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/bin/site_perl/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ranlib-15"
+      - "/usr/bin/x86_64-w64-mingw32-gcc-ranlib-15"
       - "/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ranlib-15"
       - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ranlib-15"
       - "/usr/local/bin/x86_64-w64-mingw32-gcc-ranlib-15"
@@ -1174,6 +1381,15 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/bin/site_perl/x86_64-w64-mingw32-gcc-ranlib15"
       - "/usr/x86_64-w64-mingw32/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ranlib15"
       - "/usr/x86_64-w64-mingw32/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/bin/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/local/bin/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/local/go/bin/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/lib/jvm/default/bin/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/bin/site_perl/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/bin/vendor_perl/x86_64-w64-mingw32-gcc-ranlib15"
+      - "/usr/bin/core_perl/x86_64-w64-mingw32-gcc-ranlib15"
       - "/usr/bin/x86_64-w64-mingw32-gcc-ranlib15"
       - "/home/usec/.local/bin/x86_64-w64-mingw32-gcc-ranlib15"
       - "/usr/local/sbin/x86_64-w64-mingw32-gcc-ranlib15"
@@ -1204,7 +1420,7 @@ events:
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -1245,6 +1461,23 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/sbin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1280,7 +1513,7 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/x86_64-w64-mingw32-windres"
       - "/usr/x86_64-w64-mingw32/bin/x86_64-w64-mingw32-windres"
       - "/usr/x86_64-w64-mingw32/sbin/x86_64-w64-mingw32-windres"
-      - "/home/usec/.local/bin/x86_64-w64-mingw32-windres"
+      - "/usr/home/usec/.local/bin/x86_64-w64-mingw32-windres"
       - "/usr/local/sbin/x86_64-w64-mingw32-windres"
       - "/usr/local/bin/x86_64-w64-mingw32-windres"
     found: "/usr/bin/x86_64-w64-mingw32-windres"
@@ -1300,7 +1533,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1310,8 +1543,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-xSEVuF"
-      binary: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-xSEVuF"
+      source: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-IOGvUE"
+      binary: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-IOGvUE"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1321,13 +1554,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-xSEVuF'
+        Change Dir: '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-IOGvUE'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8b0bc/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_8b0bc.dir/build.make CMakeFiles/cmTC_8b0bc.dir/build
-        make[1]: Entering directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-xSEVuF'
-        Building CXX object CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj
-        /usr/bin/x86_64-w64-mingw32-g++   -v -o CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_571e5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_571e5.dir/build.make CMakeFiles/cmTC_571e5.dir/build
+        make[1]: Entering directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-IOGvUE'
+        Building CXX object CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/x86_64-w64-mingw32-g++   -v -o CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++
         Target: x86_64-w64-mingw32
@@ -1335,8 +1568,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b0bc.dir/'
-         /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus -quiet -v -D_REENTRANT /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8b0bc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccXclNST.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_571e5.dir/'
+         /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus -quiet -v -D_REENTRANT /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_571e5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccf1ghl2.s
         GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.1 20250813, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1352,14 +1585,14 @@ events:
          /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 94e2fcf38c2dc7c6120bcf1bc489aca0
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b0bc.dir/'
-         /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccXclNST.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_571e5.dir/'
+         /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccf1ghl2.s
         GNU assembler version 2.45.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45.1
         COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_8b0bc.exe
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b0bc.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_571e5.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_571e5.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper
@@ -1370,16 +1603,16 @@ events:
         gcc version 15.2.0 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b0bc.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b0bc.'
-         /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/collect2 -plugin /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbsrkEk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_8b0bc.exe /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_8b0bc.dir/objects.a --no-whole-archive --out-implib libcmTC_8b0bc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_571e5.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_571e5.'
+         /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/collect2 -plugin /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Y51Nc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_571e5.exe /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_571e5.dir/objects.a --no-whole-archive --out-implib libcmTC_571e5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld -plugin /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbsrkEk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_8b0bc.exe /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_8b0bc.dir/objects.a --no-whole-archive --out-implib libcmTC_8b0bc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld -plugin /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Y51Nc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_571e5.exe /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_571e5.dir/objects.a --no-whole-archive --out-implib libcmTC_571e5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b0bc.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b0bc.'
-        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_8b0bc.dir/objects.a
-        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_8b0bc.dir/objects.a @CMakeFiles/cmTC_8b0bc.dir/objects1.rsp
-        /usr/bin/x86_64-w64-mingw32-g++  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_8b0bc.dir/objects.a -Wl,--no-whole-archive -o cmTC_8b0bc.exe -Wl,--out-implib,libcmTC_8b0bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        make[1]: Leaving directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-xSEVuF'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_571e5.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_571e5.'
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_571e5.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_571e5.dir/objects.a @CMakeFiles/cmTC_571e5.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-g++  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_571e5.dir/objects.a -Wl,--no-whole-archive -o cmTC_571e5.exe -Wl,--out-implib,libcmTC_571e5.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: Leaving directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-IOGvUE'
         
       exitCode: 0
   -
@@ -1418,13 +1651,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-xSEVuF']
+        ignore line: [Change Dir: '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-IOGvUE']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8b0bc/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_8b0bc.dir/build.make CMakeFiles/cmTC_8b0bc.dir/build]
-        ignore line: [make[1]: Entering directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-xSEVuF']
-        ignore line: [Building CXX object CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/usr/bin/x86_64-w64-mingw32-g++   -v -o CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_571e5/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_571e5.dir/build.make CMakeFiles/cmTC_571e5.dir/build]
+        ignore line: [make[1]: Entering directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-IOGvUE']
+        ignore line: [Building CXX object CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-g++   -v -o CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1432,8 +1665,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b0bc.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus -quiet -v -D_REENTRANT /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8b0bc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccXclNST.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_571e5.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus -quiet -v -D_REENTRANT /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_571e5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccf1ghl2.s]
         ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.1 20250813  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1449,14 +1682,14 @@ events:
         ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 94e2fcf38c2dc7c6120bcf1bc489aca0]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b0bc.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccXclNST.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_571e5.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccf1ghl2.s]
         ignore line: [GNU assembler version 2.45.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45.1]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b0bc.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_8b0bc.exe]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b0bc.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_571e5.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_571e5.exe]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_571e5.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper]
@@ -1467,13 +1700,13 @@ events:
         ignore line: [gcc version 15.2.0 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b0bc.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b0bc.']
-        link line: [ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/collect2 -plugin /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbsrkEk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_8b0bc.exe /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_8b0bc.dir/objects.a --no-whole-archive --out-implib libcmTC_8b0bc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_571e5.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_571e5.']
+        link line: [ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/collect2 -plugin /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Y51Nc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_571e5.exe /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_571e5.dir/objects.a --no-whole-archive --out-implib libcmTC_571e5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccbsrkEk.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc0Y51Nc.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1495,7 +1728,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_8b0bc.exe] ==> ignore
+          arg [cmTC_571e5.exe] ==> ignore
           arg [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -1503,10 +1736,10 @@ events:
           arg [-L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles/cmTC_8b0bc.dir/objects.a] ==> ignore
+          arg [CMakeFiles/cmTC_571e5.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_8b0bc.dll.a] ==> ignore
+          arg [libcmTC_571e5.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1531,7 +1764,7 @@ events:
           arg [-lkernel32] ==> lib [kernel32]
           arg [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld -plugin /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbsrkEk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_8b0bc.exe /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_8b0bc.dir/objects.a --no-whole-archive --out-implib libcmTC_8b0bc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld -plugin /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Y51Nc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_571e5.exe /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_571e5.dir/objects.a --no-whole-archive --out-implib libcmTC_571e5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -1567,34 +1800,34 @@ events:
       - "/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "/usr/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:186 (include)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-32yFl8"
-      binary: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-32yFl8"
+      source: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-NEOXG5"
+      binary: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-NEOXG5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -static"
       CMAKE_MODULE_PATH: "/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-32yFl8'
+        Change Dir: '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-NEOXG5'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e5e35/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e5e35.dir/build.make CMakeFiles/cmTC_e5e35.dir/build
-        make[1]: Entering directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-32yFl8'
-        Building CXX object CMakeFiles/cmTC_e5e35.dir/src.cxx.obj
-        /usr/bin/x86_64-w64-mingw32-g++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -o CMakeFiles/cmTC_e5e35.dir/src.cxx.obj -c /home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-32yFl8/src.cxx
-        Linking CXX executable cmTC_e5e35.exe
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e35.dir/link.txt --verbose=1
-        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_e5e35.dir/objects.a
-        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_e5e35.dir/objects.a @CMakeFiles/cmTC_e5e35.dir/objects1.rsp
-        /usr/bin/x86_64-w64-mingw32-g++ -Wl,--whole-archive CMakeFiles/cmTC_e5e35.dir/objects.a -Wl,--no-whole-archive -o cmTC_e5e35.exe -Wl,--out-implib,libcmTC_e5e35.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e5e35.dir/linkLibs.rsp
-        make[1]: Leaving directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-32yFl8'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9771c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9771c.dir/build.make CMakeFiles/cmTC_9771c.dir/build
+        make[1]: Entering directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-NEOXG5'
+        Building CXX object CMakeFiles/cmTC_9771c.dir/src.cxx.obj
+        /usr/bin/x86_64-w64-mingw32-g++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -o CMakeFiles/cmTC_9771c.dir/src.cxx.obj -c /home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-NEOXG5/src.cxx
+        Linking CXX executable cmTC_9771c.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9771c.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_9771c.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_9771c.dir/objects.a @CMakeFiles/cmTC_9771c.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-g++  -static  -Wl,--whole-archive CMakeFiles/cmTC_9771c.dir/objects.a -Wl,--no-whole-archive -o cmTC_9771c.exe -Wl,--out-implib,libcmTC_9771c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9771c.dir/linkLibs.rsp
+        make[1]: Leaving directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-NEOXG5'
         
       exitCode: 0
   -
@@ -1607,7 +1840,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6CoreTools"
     configs:
       -
@@ -1653,22 +1886,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/Qt6CoreToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/qt6coretools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -1704,7 +1921,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find_package-v1"
     backtrace:
@@ -1715,7 +1932,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6GuiTools"
     configs:
       -
@@ -1761,22 +1978,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/Qt6GuiToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/qt6guitools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -1812,7 +2013,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find_package-v1"
     backtrace:
@@ -1820,7 +2021,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6WidgetsTools"
     configs:
       -
@@ -1866,22 +2067,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/Qt6WidgetsToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/qt6widgetstools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -1917,7 +2102,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1935,34 +2120,34 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-why4Ro"
-      binary: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-why4Ro"
+      source: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-PDZRFL"
+      binary: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-PDZRFL"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -static"
       CMAKE_MODULE_PATH: "/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
     buildResult:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-why4Ro'
+        Change Dir: '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-PDZRFL'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0df2/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_f0df2.dir/build.make CMakeFiles/cmTC_f0df2.dir/build
-        make[1]: Entering directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-why4Ro'
-        Building CXX object CMakeFiles/cmTC_f0df2.dir/src.cxx.obj
-        /usr/bin/x86_64-w64-mingw32-g++ -DHAVE_STDATOMIC  -std=gnu++20 -o CMakeFiles/cmTC_f0df2.dir/src.cxx.obj -c /home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-why4Ro/src.cxx
-        Linking CXX executable cmTC_f0df2.exe
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0df2.dir/link.txt --verbose=1
-        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_f0df2.dir/objects.a
-        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_f0df2.dir/objects.a @CMakeFiles/cmTC_f0df2.dir/objects1.rsp
-        /usr/bin/x86_64-w64-mingw32-g++ -Wl,--whole-archive CMakeFiles/cmTC_f0df2.dir/objects.a -Wl,--no-whole-archive -o cmTC_f0df2.exe -Wl,--out-implib,libcmTC_f0df2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f0df2.dir/linkLibs.rsp
-        make[1]: Leaving directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-why4Ro'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98c04/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_98c04.dir/build.make CMakeFiles/cmTC_98c04.dir/build
+        make[1]: Entering directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-PDZRFL'
+        Building CXX object CMakeFiles/cmTC_98c04.dir/src.cxx.obj
+        /usr/bin/x86_64-w64-mingw32-g++ -DHAVE_STDATOMIC  -std=gnu++20 -o CMakeFiles/cmTC_98c04.dir/src.cxx.obj -c /home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-PDZRFL/src.cxx
+        Linking CXX executable cmTC_98c04.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98c04.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_98c04.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_98c04.dir/objects.a @CMakeFiles/cmTC_98c04.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-g++  -static  -Wl,--whole-archive CMakeFiles/cmTC_98c04.dir/objects.a -Wl,--no-whole-archive -o cmTC_98c04.exe -Wl,--out-implib,libcmTC_98c04.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_98c04.dir/linkLibs.rsp
+        make[1]: Leaving directory '/home/usec/Git/kusaiGUI/win_build/CMakeFiles/CMakeScratch/TryCompile-PDZRFL'
         
       exitCode: 0
   -
@@ -1977,7 +2162,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "program"
     variable: "WINDEPLOYQT_EXECUTABLE"
     description: "Path to a program."
@@ -2010,6 +2195,24 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/sbin/"
+      - "/usr/lib/qt6/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
       - "/usr/lib/qt6/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
@@ -2048,6 +2251,24 @@ events:
       - "/usr/x86_64-w64-mingw32/bin/windeployqt"
       - "/usr/x86_64-w64-mingw32/sbin/windeployqt"
       - "/usr/lib/qt6/bin/windeployqt"
+      - "/usr/home/usec/.local/bin/windeployqt"
+      - "/usr/local/sbin/windeployqt"
+      - "/usr/local/bin/windeployqt"
+      - "/usr/bin/windeployqt"
+      - "/usr/local/go/bin/windeployqt"
+      - "/usr/lib/jvm/default/bin/windeployqt"
+      - "/usr/bin/site_perl/windeployqt"
+      - "/usr/bin/vendor_perl/windeployqt"
+      - "/usr/bin/core_perl/windeployqt"
+      - "/usr/bin/windeployqt"
+      - "/usr/sbin/windeployqt"
+      - "/usr/windeployqt"
+      - "/usr/local/bin/windeployqt"
+      - "/usr/local/sbin/windeployqt"
+      - "/usr/local/windeployqt"
+      - "/usr/bin/windeployqt"
+      - "/usr/sbin/windeployqt"
+      - "/usr/lib/qt6/bin/windeployqt"
       - "/home/usec/.local/bin/windeployqt"
       - "/usr/local/sbin/windeployqt"
       - "/usr/local/bin/windeployqt"
@@ -2082,7 +2303,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2092,7 +2313,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6Core"
     configs:
       -
@@ -2129,14 +2350,6 @@ events:
         CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
-        mode: "config"
-        reason: "no_exist"
       -
         path: "/usr/lib/cmake/Qt6CoreConfig.cmake"
         mode: "config"
@@ -2197,7 +2410,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -2212,7 +2425,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
     description: "Path to a file."
@@ -2242,6 +2455,21 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/include/"
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/include/"
+      - "/usr/include/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
       - "/include/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
@@ -2273,6 +2501,21 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/include/vulkan/vulkan.h"
       - "/usr/x86_64-w64-mingw32/usr/local/vulkan/vulkan.h"
       - "/usr/x86_64-w64-mingw32/include/vulkan/vulkan.h"
+      - "/usr/include/vulkan/vulkan.h"
+      - "/usr/home/usec/.local/bin/vulkan/vulkan.h"
+      - "/usr/local/sbin/vulkan/vulkan.h"
+      - "/usr/local/bin/vulkan/vulkan.h"
+      - "/usr/bin/vulkan/vulkan.h"
+      - "/usr/local/go/bin/vulkan/vulkan.h"
+      - "/usr/lib/jvm/default/bin/vulkan/vulkan.h"
+      - "/usr/bin/site_perl/vulkan/vulkan.h"
+      - "/usr/bin/vendor_perl/vulkan/vulkan.h"
+      - "/usr/bin/core_perl/vulkan/vulkan.h"
+      - "/usr/include/vulkan/vulkan.h"
+      - "/usr/vulkan/vulkan.h"
+      - "/usr/local/include/vulkan/vulkan.h"
+      - "/usr/local/vulkan/vulkan.h"
+      - "/usr/include/vulkan/vulkan.h"
       - "/include/vulkan/vulkan.h"
       - "/home/usec/.local/bin/vulkan/vulkan.h"
       - "/usr/local/sbin/vulkan/vulkan.h"
@@ -2305,7 +2548,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -2320,7 +2563,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
     description: "Path to a library."
@@ -2351,6 +2594,22 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/lib/"
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/lib/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
       - "/lib/"
       - "/bin/"
       - "/home/usec/.local/bin/"
@@ -2384,6 +2643,22 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/lib/"
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/lib/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
       - "/lib/"
       - "/bin/"
       - "/home/usec/.local/bin/"
@@ -2421,7 +2696,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -2436,7 +2711,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
     description: "Path to a program."
@@ -2469,6 +2744,24 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/sbin/"
+      - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
       - "/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
@@ -2506,7 +2799,7 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/glslc"
       - "/usr/x86_64-w64-mingw32/bin/glslc"
       - "/usr/x86_64-w64-mingw32/sbin/glslc"
-    found: "/bin/glslc"
+    found: "/usr/bin/glslc"
     search_context:
       ENV{PATH}:
         - "/home/usec/.local/bin"
@@ -2523,7 +2816,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -2538,7 +2831,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
     description: "Path to a program."
@@ -2571,6 +2864,24 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/sbin/"
+      - "/usr/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
       - "/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
@@ -2608,7 +2919,7 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/glslangValidator"
       - "/usr/x86_64-w64-mingw32/bin/glslangValidator"
       - "/usr/x86_64-w64-mingw32/sbin/glslangValidator"
-    found: "/bin/glslangValidator"
+    found: "/usr/bin/glslangValidator"
     search_context:
       ENV{PATH}:
         - "/home/usec/.local/bin"
@@ -2625,7 +2936,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2643,7 +2954,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6DBusTools"
     configs:
       -
@@ -2689,22 +3000,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/Qt6DBusToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/qt6dbustools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/usr/local/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2740,7 +3035,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2755,7 +3050,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6DBus"
     configs:
       -
@@ -2792,14 +3087,6 @@ events:
         CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
-        mode: "config"
-        reason: "no_exist"
       -
         path: "/usr/lib/cmake/Qt6DBusConfig.cmake"
         mode: "config"
@@ -2844,7 +3131,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2854,7 +3141,7 @@ events:
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6Gui"
     configs:
       -
@@ -2891,14 +3178,6 @@ events:
         CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
-        mode: "config"
-        reason: "no_exist"
       -
         path: "/usr/lib/cmake/Qt6GuiConfig.cmake"
         mode: "config"
@@ -2943,12 +3222,12 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find_package-v1"
     backtrace:
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6Widgets"
     configs:
       -
@@ -2982,14 +3261,6 @@ events:
         CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
-        mode: "config"
-        reason: "no_exist"
       -
         path: "/usr/lib/cmake/Qt6WidgetsConfig.cmake"
         mode: "config"
@@ -3034,11 +3305,11 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
     name: "Qt6"
     components:
       -
@@ -3085,22 +3356,6 @@ events:
         reason: "no_exist"
       -
         path: "/usr/x86_64-w64-mingw32/qt6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/Git/kusaiGUI/win_build/CMakeFiles/pkgRedirects/qt6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/Qt6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/usec/.local/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -5371,7 +5626,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
       CMAKE_MODULE_PATH:
         - "/usr/lib/cmake/Qt6"
         - "/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
@@ -5417,6 +5672,23 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/sbin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5452,7 +5724,7 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/git"
       - "/usr/x86_64-w64-mingw32/bin/git"
       - "/usr/x86_64-w64-mingw32/sbin/git"
-      - "/home/usec/.local/bin/git"
+      - "/usr/home/usec/.local/bin/git"
       - "/usr/local/sbin/git"
       - "/usr/local/bin/git"
     found: "/usr/bin/git"
@@ -5472,7 +5744,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -5509,6 +5781,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Release/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Release/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5542,6 +5830,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Release/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Release/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5579,7 +5883,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -5617,6 +5921,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Debug/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5666,6 +5986,38 @@ events:
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Debug/"
+      - "/usr/vsprojects/x64/Debug/"
       - "/home/usec/.local/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
@@ -5719,7 +6071,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -5756,6 +6108,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Release/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Release/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5789,6 +6157,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Release/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Release/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5826,7 +6210,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -5864,6 +6248,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Debug/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5913,6 +6313,38 @@ events:
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Debug/"
+      - "/usr/vsprojects/x64/Debug/"
       - "/home/usec/.local/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
@@ -5966,7 +6398,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -6003,6 +6435,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Release/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Release/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -6036,6 +6484,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Release/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Release/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -6073,7 +6537,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -6111,6 +6575,22 @@ events:
       - "/usr/x86_64-w64-mingw32/lib/"
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Debug/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -6160,6 +6640,38 @@ events:
       - "/usr/x86_64-w64-mingw32/bin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/vsprojects/x64/Debug/"
+      - "/usr/vsprojects/x64/Debug/"
       - "/home/usec/.local/bin/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
@@ -6213,7 +6725,7 @@ events:
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -6248,6 +6760,21 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/"
       - "/usr/x86_64-w64-mingw32/include/"
       - "/usr/x86_64-w64-mingw32/src/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/src/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -6279,7 +6806,7 @@ events:
       - "/usr/x86_64-w64-mingw32/usr/local/google/protobuf/service.h"
       - "/usr/x86_64-w64-mingw32/include/google/protobuf/service.h"
       - "/usr/x86_64-w64-mingw32/src/google/protobuf/service.h"
-      - "/home/usec/.local/bin/google/protobuf/service.h"
+      - "/usr/home/usec/.local/bin/google/protobuf/service.h"
       - "/usr/local/sbin/google/protobuf/service.h"
       - "/usr/local/bin/google/protobuf/service.h"
       - "/usr/bin/google/protobuf/service.h"
@@ -6305,7 +6832,7 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -6344,6 +6871,25 @@ events:
       - "/usr/x86_64-w64-mingw32/sbin/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Release/"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/"
+      - "/usr/home/usec/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/vsprojects/x64/Release/"
+      - "/usr/vsprojects/x64/Debug/"
       - "/home/usec/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -6383,7 +6929,7 @@ events:
       - "/usr/x86_64-w64-mingw32/sbin/protoc"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Release/protoc"
       - "/usr/x86_64-w64-mingw32/vsprojects/x64/Debug/protoc"
-      - "/home/usec/.local/bin/protoc"
+      - "/usr/home/usec/.local/bin/protoc"
       - "/usr/local/sbin/protoc"
       - "/usr/local/bin/protoc"
     found: "/usr/bin/protoc"
@@ -6403,5 +6949,5 @@ events:
         - "/usr"
         - "/usr/local"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32"
+      CMAKE_FIND_ROOT_PATH: "/usr/x86_64-w64-mingw32;/usr"
 ...

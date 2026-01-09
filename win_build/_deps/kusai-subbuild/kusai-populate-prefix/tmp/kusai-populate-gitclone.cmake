@@ -36,7 +36,7 @@ set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "/usr/bin/git"
-            clone --no-checkout --config "advice.detachedHead=false" "https://github.com/kasefuchs/kusai" "kusai-src"
+            clone --no-checkout --config "advice.detachedHead=false" "/home/usec/Git/kusaiGUI/aiOverride/kusai" "kusai-src"
     WORKING_DIRECTORY "/home/usec/Git/kusaiGUI/win_build/_deps"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
@@ -47,7 +47,7 @@ if(number_of_tries GREATER 1)
   message(NOTICE "Had to git clone more than once: ${number_of_tries} times.")
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to clone repository: 'https://github.com/kasefuchs/kusai'")
+  message(FATAL_ERROR "Failed to clone repository: '/home/usec/Git/kusaiGUI/aiOverride/kusai'")
 endif()
 
 execute_process(

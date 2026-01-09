@@ -6,7 +6,7 @@ method=git
 command=/usr/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/kusai-populate-prefix/tmp/kusai-populate-gitclone.cmake
 source_dir=/home/usec/Git/kusaiGUI/win_build/_deps/kusai-src
 work_dir=/home/usec/Git/kusaiGUI/win_build/_deps
-repository=https://github.com/kasefuchs/kusai
+repository=/home/usec/Git/kusaiGUI/aiOverride/kusai
 remote=origin
 init_submodules=TRUE
 recurse_submodules=--recursive

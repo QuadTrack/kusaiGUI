@@ -27,7 +27,7 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(kusai-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/kasefuchs/kusai" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "main"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "/home/usec/Git/kusaiGUI/aiOverride/kusai" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "main"
                     SOURCE_DIR          "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-src"
                     BINARY_DIR          "/home/usec/Git/kusaiGUI/win_build/_deps/kusai-build"
                     CONFIGURE_COMMAND   ""
