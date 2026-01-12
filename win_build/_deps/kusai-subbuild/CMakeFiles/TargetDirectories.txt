@@ -1,3 +1,0 @@
-/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/CMakeFiles/kusai-populate.dir
-/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/CMakeFiles/edit_cache.dir
-/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/CMakeFiles/rebuild_cache.dir

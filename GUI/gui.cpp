@@ -2,17 +2,28 @@
 #include "ai.hpp"
 
 int main(int argc, char *argv[]){
+    setlocale(LC_ALL, "russian");
+    CLI::App app{"CLI tool to train TextChain Markov models"};
+    int contextSize = 1;
+    bool run = 0;
+    std::string fileName = "";
+    app.add_option("-t, --train", contextSize, "Context size for model");
+    app.add_option("-f, --trainfile", fileName, "String data file for training model" );
+    app.add_flag("-r, --run", run, "Run the model");
+    CLI11_PARSE(app, argc, argv);
 //    std::cout << argc << '|' << argv[1] << std::endl;
-    if(argc == 2 && argv[1][0] == 't') {
-        ai::Train();
+std::cout << "Debug: run:" << run << std::endl;
+    if(!run) {
+        ai::Train(fileName, contextSize);
         return 0;
+    } else {
+        QApplication app(argc, argv);
+        QMainWindow main;
+        Ui_MainWindow root;
+        root.setupUi(&main);
+        main.show();
+        return app.exec();
     }
-    QApplication app(argc, argv);
-    QMainWindow main;
-    Ui_MainWindow root;
-    root.setupUi(&main);
-    main.show();
-    return app.exec();
 }
 
 void Ui_MainWindow::ButtonClicked() {

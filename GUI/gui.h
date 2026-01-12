@@ -14,6 +14,7 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "QtWidgets"
+#include "CLI/CLI.hpp"
 
 class Ui_MainWindow : public QMainWindow
 {

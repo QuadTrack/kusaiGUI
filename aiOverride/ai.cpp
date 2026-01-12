@@ -12,7 +12,9 @@ bool ai::ImportGraph() {
         std::cout << "Error opening \'graph.json\' file!" << std::endl;
         return 0;
     }
-    markovData.deserializeFromIstream(importedGraph);
+    markovData = new NGramMarkov;
+    chain = new TextChain(*markovData);
+    markovData->deserializeFromIstream(importedGraph);
     importedGraph.close();
     return 1;
 }
@@ -28,14 +30,16 @@ bool ai::ExportGraph() {
         std::cout << "Error opening/creation \'graph.json\' file!" << std::endl;
         return 0;
     }
-    markovData.serializeToOstream(exportGraph);
+    markovData->serializeToOstream(exportGraph);
     exportGraph.close();
     return 1;
 }
 
-bool ai::Train() {
+bool ai::Train(std::string fileName, int contextSize) {
     ImportGraph();
-    std::ifstream readFile("../train.txt");
+    markovData = new NGramMarkov(contextSize);
+    chain = new TextChain(*markovData);
+    std::ifstream readFile("../" + fileName);
     if (!readFile.is_open()) {
         std::cout << "Error opening \'train.txt\' file!" << std::endl;
         return 0;
@@ -50,15 +54,17 @@ bool ai::Train() {
 //    std::cout << "Debug: finished reading" << std::endl;
     readFile.close();
 //    std::cout << "Begin train" << std::endl;
-    chain.train(data);
+    chain->train(data);
 //    std::cout << "End train" << std::endl;
     ExportGraph();
+    delete markovData;
+    delete chain;
     return 1;
 }
 
 bool ai::RunAi(std::string ask, std::string &answer, uint32_t limit) {
     ImportGraph();
-    answer = chain.generateTokens(ask, limit);
+    answer = chain->generateTokens(ask, limit);
     if(answer.empty()){
         std::cout << "Error answering!" << std::endl;
         return 0;

@@ -11,15 +11,10 @@
 //#include "markov.pb.h"
 
 namespace ai {
-    static std::map<char, int> acts {
-        {'t', 0}, //train
-        {'e', 1}, //export
-        {'i', 2}, //import
-        {'r', 3}, //runai
-    };
-    static NGramMarkov markovData;
-    static auto chain = TextChain(markovData);
-    bool Train();
+    static int contextSize;
+    static NGramMarkov* markovData;
+    static TextChain* chain;
+    bool Train(std::string fileName, int contextSize);
     bool ExportGraph();
     bool ImportGraph();
     bool RunAi(std::string ask, std::string& answer, uint32_t limit = 200);

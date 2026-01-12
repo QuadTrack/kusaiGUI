@@ -1,0 +1,11 @@
+{
+  "name": "kusaiGUI",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "abseil",
+    "protobuf",
+    "cli11",
+    "pugixml",
+    "xxhash"
+  ]
+}

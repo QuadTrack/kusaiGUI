@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/usec/Git/kusaiGUI/win_build/_deps/kusai-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
