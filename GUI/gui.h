@@ -14,6 +14,7 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "QtWidgets"
+#include "QFileDialog"
 #include "CLI/CLI.hpp"
 
 class Ui_MainWindow : public QMainWindow
@@ -35,6 +36,10 @@ public:
     QPushButton *pushButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
+
+    static bool* run;
+    static bool* train;
+    static bool* debug;
 
     void setupUi(QMainWindow *MainWindow)
     {
