@@ -32,7 +32,7 @@ public:
     QLabel *label_2;
     QLabel* label_4;
     QLabel *label_3;
-    QLabel* label_4_1;
+    QSpinBox* spinBox_4_1;
     QRadioButton *radioButton;
     QRadioButton *radioButton_2;
     QPushButton *pushButton;
@@ -90,10 +90,13 @@ public:
         gridLayout->addWidget(radioButton_2, 2, 1, 1, 1);
 
         label_4 = new QLabel(verticalLayoutWidget);
-        label_4_1 = new QLabel(verticalLayoutWidget);
+        spinBox_4_1 = new QSpinBox(verticalLayoutWidget);
+        spinBox_4_1->setMinimum(1);
+        spinBox_4_1->setMaximum(300);
+        spinBox_4_1->setValue(20);
 
         gridLayout->addWidget(label_4, 3, 0, 1, 1);
-        gridLayout->addWidget(label_4_1, 3, 1, 1, 1);
+        gridLayout->addWidget(spinBox_4_1, 3, 1, 1, 1);
 
         verticalLayout->addLayout(gridLayout);
 
@@ -121,10 +124,10 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Искусственный интеллект", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Поле ввода:", nullptr));
-        label_2->setText(QCoreApplication::translate("MainWindow", "Текстовый запрос", nullptr));
+        label_2->setText(QCoreApplication::translate("MainWindow", "Текстовое задание", nullptr));
         label_4->setText(QCoreApplication::translate("MainWindow", "Лимит ответа:", nullptr));
-        label_3->setText(QCoreApplication::translate("MainWindow", "Ссылка на промпт", nullptr));
-        label_4_1->setText(QCoreApplication::translate("MainWindow", std::to_string(*limit).c_str(), nullptr));
+        label_3->setText(QCoreApplication::translate("MainWindow", "Прочитать задание из файла", nullptr));
+//        spinBox_4_1->setText(QCoreApplication::translate("MainWindow", std::to_string(*limit).c_str(), nullptr));
         radioButton->setText(QCoreApplication::translate("MainWindow", "", nullptr));
         radioButton_2->setText(QCoreApplication::translate("MainWindow", "", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "Выполнить", nullptr));

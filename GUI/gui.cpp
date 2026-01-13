@@ -41,6 +41,7 @@ int main(int argc, char *argv[]){
 
 void Ui_MainWindow::ButtonClicked() {
     std::string task;
+    *limit = spinBox_4_1->value();
     bool prompt;
     if(radioButton->isChecked()){
         if(*debug) std::cout << "Debug: Btn 1(prompt) checked" << std::endl;
@@ -78,6 +79,7 @@ void Ui_MainWindow::ButtonClicked() {
 
     if(!task.empty()) {
         std::string answer;
+        if(debug) std::cout << "Debug: Limit size = " << *limit << std::endl;
         ai::RunAi(task, answer, *Ui_MainWindow::limit);
         QMessageBox::information(nullptr, "Answer", QString::fromStdString(answer));
         std::cout << "DebugAnswer: " << answer << std::endl;
