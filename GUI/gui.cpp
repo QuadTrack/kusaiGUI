@@ -4,6 +4,7 @@
 bool* Ui_MainWindow::train = new bool;
 bool* Ui_MainWindow::run = new bool;
 bool* Ui_MainWindow::debug = new bool;
+int* Ui_MainWindow::limit = new int {20};
 
 int main(int argc, char *argv[]){
     setlocale(LC_ALL, "russian");
@@ -14,7 +15,8 @@ int main(int argc, char *argv[]){
     *Ui_MainWindow::run = false;
     *Ui_MainWindow::debug = false;
     std::string fileName = "";
-    app.add_option("-s, --contextsize", contextSize, "Context size for model");
+    app.add_option("-l, --limit", *Ui_MainWindow::limit, "Maximal answer length, default = 20")->check(CLI::PositiveNumber);
+    app.add_option("-s, --contextsize", contextSize, "Context size for model")->check(CLI::NonNegativeNumber);
     app.add_option("-f, --trainfile", fileName, "String data file for training model" );
     app.add_flag("-r, --run", *Ui_MainWindow::run, "Run the model");
     app.add_flag("-t, --train", *Ui_MainWindow::train, "Train the model, required to set file name and context size.");
@@ -76,7 +78,7 @@ void Ui_MainWindow::ButtonClicked() {
 
     if(!task.empty()) {
         std::string answer;
-        ai::RunAi(task, answer, 20);
+        ai::RunAi(task, answer, *Ui_MainWindow::limit);
         QMessageBox::information(nullptr, "Answer", QString::fromStdString(answer));
         std::cout << "DebugAnswer: " << answer << std::endl;
     } else {

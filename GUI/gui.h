@@ -30,7 +30,9 @@ public:
     QTextEdit *textEdit;
     QGridLayout *gridLayout;
     QLabel *label_2;
+    QLabel* label_4;
     QLabel *label_3;
+    QLabel* label_4_1;
     QRadioButton *radioButton;
     QRadioButton *radioButton_2;
     QPushButton *pushButton;
@@ -40,12 +42,13 @@ public:
     static bool* run;
     static bool* train;
     static bool* debug;
+    static int* limit;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->setFixedSize(270, 340);
+        MainWindow->setFixedSize(270, 355);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         verticalLayoutWidget = new QWidget(centralwidget);
@@ -86,6 +89,11 @@ public:
 
         gridLayout->addWidget(radioButton_2, 2, 1, 1, 1);
 
+        label_4 = new QLabel(verticalLayoutWidget);
+        label_4_1 = new QLabel(verticalLayoutWidget);
+
+        gridLayout->addWidget(label_4, 3, 0, 1, 1);
+        gridLayout->addWidget(label_4_1, 3, 1, 1, 1);
 
         verticalLayout->addLayout(gridLayout);
 
@@ -114,7 +122,9 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Искусственный интеллект", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Поле ввода:", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Текстовый запрос", nullptr));
+        label_4->setText(QCoreApplication::translate("MainWindow", "Лимит ответа:", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Ссылка на промпт", nullptr));
+        label_4_1->setText(QCoreApplication::translate("MainWindow", std::to_string(*limit).c_str(), nullptr));
         radioButton->setText(QCoreApplication::translate("MainWindow", "", nullptr));
         radioButton_2->setText(QCoreApplication::translate("MainWindow", "", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "Выполнить", nullptr));
